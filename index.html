@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="icon" href="img/Logo JA Transparente.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="encabezado">
+            <img class="logo" src="img/Logo JA Transparente.png" alt="Logo">
+            <h1>Codificador de Textos</h1>
+        </div>
+    </header>
+    <main class="contenedor">
+        <div class="entrada">
+            <h3>Entrada de texto</h3>
+            <label for="">Por favor, escriba su mensaje</label>
+            <textarea id="input" type="text"></textarea>
+            <button id="botonEncriptar" class="boton" type="submit">Encriptar</button>
+            <button id="botonDesencriptar" class="boton" type="submit">Desencriptar</button>
+        </div>
+        <div class="salida">
+            <h3>Salida de texto</h3>
+            <label id="etiquetaSalida" for="">Este es su mensaje codificado</label>
+            <p id="output"></p>
+            <button id="botonCopiar" class="boton" type="submit">Copiar mensaje</button>
+        </div>
+        <div class="popUp">
+            <p>¡Mensaje Copiado!</p>
+        </div>
+    </main>
+    <footer>
+        <p>Desarrollado por: José Arrieta</p>
+        <div class="iconos">
+            <a href="https://www.facebook.com/Arrieta22" target="_blank" title="Contactar por Facebook">
+                <img class="icono" src="img/facebook.png" alt="Facebook"/>
+            </a>
+            <a href="https://www.instagram.com/arrieta_22/" target="_blank" title="Contactar por Instagram">
+                <img class="icono" src="img/instagram.png" alt="Instagram"/>
+            </a>
+            <a href="https://twitter.com/arrieta_22" target="_blank" title="Contactar por Twitter">
+                <img class="icono" src="img/twitter.png" alt="Twitter"/>
+            </a>
+            <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank" title="Contactar por LinkedIn">
+                <img class="icono" src="img/linkedin.png" alt="LinkedIn"/>
+            </a>
+            <a href="https://discord.com/channels/Arrieta22#3780" target="_blank" title="Contactar por Discord">
+                <img class="icono" src="img/discord.png" alt="Discord"/>
+            </a>
+            <a href="https://github.com/Arrieta22" target="_blank" title="Contactar por GitHub">
+                <img class="icono" src="img/github.png" alt="GitHub"/>
+            </a>
+        </div>
+    </footer>
+    <script src="javascript/main.js"></script>
+</body>
+</html>
